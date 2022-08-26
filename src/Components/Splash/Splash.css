@@ -1,0 +1,56 @@
+#splash-title {
+    font-family: nove;
+    color: #00FF89;
+    text-align: center;
+    font-size: 48px;
+}
+
+#card-body {
+    background-color: #24262D;
+    color: white;
+    font-family: nove;
+}
+
+#card-text {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#card-title {
+    font-family: nove;
+    border-bottom: #00FF89 1px solid;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+#subtitle-text {
+    color: #00FF89;
+    font-family: nove;
+}
+
+h3 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #00FF89;
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+h3 span {
+    background-color: #15171B; 
+    padding:0 100px; 
+    color: #00FF89;
+    font-family: nove;
+}
+
+#card-group-test {
+    background-color: #24262D !important; 
+    color: white;
+    border: solid 1px #24262D !important;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+#line-color {
+    color: #00FF89;
+}
