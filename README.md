@@ -10,7 +10,7 @@ The server was previously maintained and operated by reMARCable until it was dec
 
 The mission of Freeworld is to continue its legacy and to build a newer and more sophisticated server. In which we hope, will create newer relationships amongst the players.
 
-##
+## Development
 
 <i>The webpage was first designed using Adobe xD and illustrator and written with React and PostgreSQL.<i>
 
