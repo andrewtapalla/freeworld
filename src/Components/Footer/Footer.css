@@ -2,3 +2,8 @@
     color: white;
     background-color: #24262D;
 }
+
+#footer-button {
+    background-color: transparent;
+    border: none;
+}

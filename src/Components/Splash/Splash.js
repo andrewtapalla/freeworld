@@ -8,8 +8,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 export default function Splash() {
     return(
     <Container>
-        <br /><br /><br /><br /><br />
-        <h1 id="splash-title">Freeworld</h1>
+        <img src="/Images/Freeworld-Logo.png" id="freeworld-image" />
         <br /><br /><br /><br /><br />
         <Card id="card-body">
             <Card.Body>

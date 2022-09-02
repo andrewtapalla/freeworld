@@ -5,6 +5,11 @@
     font-size: 48px;
 }
 
+#freeworld-image {
+    width: 100%;
+    height: auto;
+}
+
 #card-body {
     background-color: #24262D;
     color: white;
