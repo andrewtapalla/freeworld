@@ -27,11 +27,9 @@ export default function Footer() {
             <Card id="card-group-test">
                 <Card.Body>
                 <Card.Title id="card-title">Links</Card.Title>
-                <Button id="footer-button">Staff</Button>
-                <br />
-                <Button id="footer-button">Discord</Button>
-                <br />
-                <Button id="footer-button">Be a mod</Button>
+                <p>Staff</p>
+                <p>Discord</p>
+                <p>Be a mod</p>
                 </Card.Body>
             </Card>
             <Card id="card-group-test">

@@ -16,7 +16,6 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 
-
 function App() {
   return (
     <>
@@ -30,10 +29,10 @@ function App() {
             <Nav.Link href="/Support" id="font-type">Support</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/Login" id="font-type-2">Login</Nav.Link>
             <Nav.Link href="#blank"><img src="/Images/twitter.png" width="24px" /></Nav.Link>
-            <Nav.Link href="#blank"><img src="/Images/discord-1.png" width="24px" /></Nav.Link>
-            <Nav.Link href="#blank"><Button id="button-color"><img src="/Images/play.png" width="16px" /> Play</Button></Nav.Link>
+            <Nav.Link href="https://discord.com/invite/tj3BQUkk?utm_source=Discord%20Widget&utm_medium=Connect" target="_blank"><img src="/Images/discord-1.png" width="24px" /></Nav.Link>
+            <Nav.Link href="/Login" id="font-type-2">Login</Nav.Link>
+            {/* <Nav.Link href="#blank"><Button id="button-color"><img src="/Images/play.png" width="16px" /> Play</Button></Nav.Link> */}
           </Nav>
         </Container>
       </Navbar>

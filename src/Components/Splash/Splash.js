@@ -1,15 +1,35 @@
-import './Splash.css'
+import { useState } from 'react';
 
 import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup';
+import CardGroup from 'react-bootstrap/CardGroup'
+import Button from 'react-bootstrap/Button'
+import Alert from 'react-bootstrap/Alert'
 
+import './Splash.css'
 
 export default function Splash() {
+    const [show, setShow] = useState(true);
+
     return(
     <Container>
         <img src="/Images/Freeworld-Logo.png" id="freeworld-image" />
-        <br /><br /><br /><br /><br />
+        <br /><br /><br />
+        <center>
+        <Alert show={show} variant="success" id="alert-test">
+          <Alert.Heading>Freeworld server address:</Alert.Heading>
+          <br />
+            <p id="alert-text">home.tapalla.com</p>
+          <hr />
+           <div className="d-flex justify-content-end">
+             <Button onClick={() => setShow(false)} variant="outline-secondary">
+               Close
+             </Button>
+           </div>
+        </Alert>
+        {!show && <Button onClick={() => setShow(true)} id="play-button"><img src="/Images/play.png" width="16px" /> Play now</Button>}
+      </center>
+        <br /><br />
         <Card id="card-body">
             <Card.Body>
                 <Card.Title id="card-body">Welcome to Freeworld</Card.Title>

@@ -59,3 +59,28 @@ h3 span {
 #line-color {
     color: #00FF89;
 }
+
+#play-button {
+    background-color: #00FF89;
+    color: #fff;
+    font-weight: 700;
+    width: 25%;
+    padding: 10px;
+    font-family: nove;
+    font-size: 18px;
+    border-radius: 24px;
+    border: none;
+}
+
+#alert-test {
+    background-color: #24262D;
+    border: solid 1px #00FF89;
+    color: #00FF89;
+    width: 50%;
+}
+
+#alert-text{
+    font-weight: 700;
+    color: #00FF89;
+    font-size: 18px;
+}

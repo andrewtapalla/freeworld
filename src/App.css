@@ -23,7 +23,9 @@ body {
 }
 
 #button-color {
-  background-color: #0058FF !important;
+  background-color: #00FF89 !important;
   border: none;
   font-family: nove;
+  color: black;
+  border-radius: 24px;
 }

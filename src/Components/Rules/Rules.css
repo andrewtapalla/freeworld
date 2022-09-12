@@ -1,0 +1,33 @@
+.rules-container {
+    background-color: #24262D;
+    border-radius: 12px;
+    padding-left: 15px;
+}
+
+#rules-title {
+    border-bottom: solid 2px #00FF89;
+    width: 25%;
+}
+
+#rules-paragraph {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#server-rules {
+    background-color: #15171B;
+    border-radius: 12px;
+    color: #00FF89;
+    padding: 10px;
+    font-weight: 700;
+    width: 25%;
+}
+
+#rules-list {
+    list-style: none;
+}
+
+li {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
