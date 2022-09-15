@@ -4,31 +4,37 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import Button from 'react-bootstrap/Button'
-import Alert from 'react-bootstrap/Alert'
+// import Alert from 'react-bootstrap/Alert'
+import Modal from 'react-bootstrap/Modal'
 
 import './Splash.css'
 
 export default function Splash() {
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     return(
     <Container>
         <img src="/Images/Freeworld-Logo.png" id="freeworld-image" />
         <br /><br /><br />
-        <center>
-        <Alert show={show} variant="success" id="alert-test">
-          <Alert.Heading>Freeworld server address:</Alert.Heading>
-          <br />
-            <p id="alert-text">home.tapalla.com</p>
-          <hr />
-           <div className="d-flex justify-content-end">
-             <Button onClick={() => setShow(false)} variant="outline-secondary">
-               Close
-             </Button>
-           </div>
-        </Alert>
-        {!show && <Button onClick={() => setShow(true)} id="play-button"><img src="/Images/play.png" width="16px" /> Play now</Button>}
-      </center>
+      <center>
+        <Button variant="primary" onClick={handleShow} id="play-button">
+            <img src="/Images/play.png" width="16px" /> Play now
+        </Button>
+        <Modal show={show} onHide={handleClose} id="modal-container">
+            <Modal.Header closeButton id="modal-body">
+            <Modal.Title>Freeworld address:</Modal.Title>
+            </Modal.Header>
+            <Modal.Body id="modal-body">home.tapalla.com</Modal.Body>
+            <Modal.Footer id="modal-body">
+            <Button variant="secondary" onClick={handleClose}>
+                Close
+            </Button>
+            </Modal.Footer>
+        </Modal>
+       </center>
         <br /><br />
         <Card id="card-body">
             <Card.Body>
@@ -96,4 +102,5 @@ export default function Splash() {
             <br /><br /><br /><br /><br />
     </Container>
     )
+    
 }

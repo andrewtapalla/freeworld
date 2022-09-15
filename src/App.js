@@ -9,6 +9,8 @@ import ForgotPassword from './Components/Account/ForgotPassword'
 import Staff from './Components/Staff/Staff'
 import Rules from './Components/Rules/Rules'
 import Support from './Components/Support/Support'
+import Application from './Components/Application/Application'
+
 
 
 import Container from 'react-bootstrap/Container'
@@ -44,6 +46,8 @@ function App() {
         <Route path="/Staff" element={<Staff />} />
         <Route path="/Rules" element={<Rules />} />
         <Route path="/Support" element={<Support />} />
+        <Route path="/Application" element={<Application />} />
+
       </Routes>
       </BrowserRouter>
       <Footer />

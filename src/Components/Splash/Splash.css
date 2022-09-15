@@ -84,3 +84,19 @@ h3 span {
     color: #00FF89;
     font-size: 18px;
 }
+
+#play-button {
+    color: black;
+}
+
+#modal-container {
+    color: #00FF89;
+    border: #00FF89 1px solid;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#modal-body {
+    border: none;
+    background-color: #24262D;
+}

@@ -65,3 +65,7 @@
     border: none;
     color: #15171B ;
 }
+
+#application-status {
+    color: green;
+}

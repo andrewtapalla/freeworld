@@ -1,0 +1,28 @@
+.application-container {
+    width: 75%;
+}
+
+.application-body {
+    background-color: #24262D;
+    border-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#input-field {
+    position: relative;
+    left: 20px;
+    width: 420px;
+    border-radius: 8px;
+    border: solid 1px black;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.text-group-test {
+    padding-left: 19px;
+}
+
+#dropdown-button {
+    padding-left: 15px;
+}

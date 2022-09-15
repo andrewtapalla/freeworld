@@ -31,7 +31,7 @@ export default function Staff() {
                 </div>
               </Card>
             </CardGroup>
-              <p className="player-container" id="title-color">Staff</p>
+              <p className="player-container" id="title-color">Mods</p>
             <CardGroup id="group-test">
             <Card id="card-background">
               <div id="photo-row">
@@ -46,7 +46,7 @@ export default function Staff() {
             </Card>
           </CardGroup>
           <br /><br /><br />
-          <Button id="button-test">Apply to be a mod today!</Button>
+          <Button id="button-test" href="/Application">Apply to be a mod today!</Button>
           <br /><br />
         </div>
             {/* <p className="player-container" id="title-color">Staff</p>
